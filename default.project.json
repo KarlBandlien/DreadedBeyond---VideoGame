@@ -1,32 +1,50 @@
 {
-  "name": "RobloxGameFiles",
+  "name": "Dreaded Beyond",
   "tree": {
     "$className": "DataModel",
 
     "ReplicatedStorage": {
-      "Shared": {
-        "$path": "src/shared"
-      }
+      
+      "$path": "src/ReplicatedStorage/Scripts"
+      
     },
 
     "ServerScriptService": {
-      "Server": {
-        "$path": "src/server"
+      
+        "$path": "src/ServerScriptService"
+     
+      
+    },
+
+
+
+    "ServerStorage":{
+      "WorkspaceScripts":{
+        "$className": "Folder",
+        "$path": "src/WorkspaceScripts"
       }
     },
 
+
     "StarterPlayer": {
+      "StarterCharacterScripts": {
+        "$path": "src/StarterCharacterScripts"
+      },
       "StarterPlayerScripts": {
-        "Client": {
-          "$path": "src/client"
-        }
+        "$path": "src/StarterPlayerScripts"
+       
       }
     },
+
+    
 
     "Workspace": {
       "$properties": {
         "FilteringEnabled": true
       },
+
+
+
       "Baseplate": {
         "$className": "Part",
         "$properties": {
